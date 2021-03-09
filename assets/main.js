@@ -1,3 +1,5 @@
+
+
 //computer deve generare 16 numeri casuali compresi tra 1 a 100
 var arraybomb= [];
 var arrayUtente = [];
