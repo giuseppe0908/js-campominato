@@ -3,15 +3,15 @@ var arraybomb= [];
 var max = 100;
 creaBomba(arraybomb, max);
 console.log(arraybomb);
-random(1,100);
+random(1, max);
 
 function creaBomba(array, max){
-while(array.length < 16) {
-  var numeri = random(1, max);
-  if (!array.includes(numeri)) {
-    array.push();
-  }
-}
+  // while(array.length < 16) {
+  // var numeri = random(1, max);     CREDO SIA QUI IL PROBLEA
+  //  if (!array.includes(numeri)) {
+  //   array.push();
+  //  }
+  // }
 return array;
 }
 
