@@ -59,7 +59,7 @@ return array;
 function numberUtente(arrayU, maxx, arrayB){
   while (arrayU.length < max - 16 ) {
     var numutente= parseInt(prompt("Insersci un numero e spera di non colpire la bomba"));
-    if (isNaN(numutente) && (numutente > 0) && (numutente <= 100) && (!arrayU.includes(numutente)) || (!arrayB.includes(numutente))){
+    if (!isNaN(numutente) && (numutente > 0) && (numutente <= max) && (!arrayU.includes(numutente)) && (!arrayB.includes(numutente))){
         arrayU.push(numutente);
         console.log(arrayU);
       }else {

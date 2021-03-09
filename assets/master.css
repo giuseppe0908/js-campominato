@@ -2,5 +2,20 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
+}
 
+body{
+  display: flex;
+
+}
+#campo{
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: 0 auto;
+}
+#campo > *{
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
 }
